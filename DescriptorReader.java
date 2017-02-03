@@ -2,11 +2,11 @@
 
 public class DescriptorReader {
 	
-	public static String Descriptor2String(Mat descriptor){
+	public static String descriptor2String(Mat descriptor){
 		return arrayToString(DescriptorReader.descriptorToArray(descriptor));
 	}
 	
-	public static Mat String2Descriptor(String str){
+	public static Mat string2Descriptor(String str){
 		return arrayToDescriptor(DescriptorReader.stringToArray(str));
 	}
 
